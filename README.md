@@ -1,10 +1,10 @@
-* Lista de Tareas con Mantenimiento Perfectivo
+# Lista de Tareas con Mantenimiento Perfectivo
 
-* Descripción
+# Descripción
 
-Este repositorio contiene un proyecto de lista de tareas al que se le ha aplicado mantenimiento perfectivo. La funcionalidad implementada permite a los usuarios marcar tareas como completadas mediante un botón "Tarea terminada", mejorando la experiencia de usuario y la gestión visual de las tareas, desarrollado por Jhonatan Herrera y Carol Acosta.
+Este repositorio contiene un proyecto de lista de tareas al que se le ha aplicado mantenimiento perfectivo. La funcionalidad implementada permite a los usuarios marcar tareas como completadas mediante un botón "Tarea terminada", mejorando la experiencia de usuario y la gestión visual de las tareas, desarrollado por Jhonatan Herrera y Carol .
 
-* Características Principales
+# Características Principales
 
 1 Agregar tareas.
 
@@ -12,7 +12,7 @@ Este repositorio contiene un proyecto de lista de tareas al que se le ha aplicad
 
 3 Visualización diferenciada para tareas completadas y no completadas.
 
-* Tecnologías Utilizadas
+# Tecnologías Utilizadas
 
 1 HTML5: Estructura de la aplicación.
 
