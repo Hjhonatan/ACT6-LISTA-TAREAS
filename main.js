@@ -36,6 +36,7 @@ botonAgregar.addEventListener("click", (e) => {
       tarea.appendChild(parrafoFecha);
       tarea.appendChild(agregarBotonEliminar());
       tarea.appendChild(agregarBotonEditar());
+      tarea.appendChild(agregarBotonCompletar());
       listaTareas.appendChild(tarea);
     }
 
@@ -83,7 +84,23 @@ function agregarBotonEditar() {
 
   return botonEditar;
 }
-//
+
+// Función para crear el botón de completar
+function agregarBotonCompletar() {
+  const botonCompletar = document.createElement("button");
+
+  botonCompletar.textContent = "Tarea terminada";
+  botonCompletar.className = "btn-completar";
+
+  botonCompletar.addEventListener("click", (e) => {
+    const tarea = e.target.parentElement;
+
+    // Alternar entre completada y no completada
+    tarea.classList.toggle("completada");
+  });
+
+  return botonCompletar;
+}
 
 // Función para formatear la fecha a un formato más amigable
 function formatearFecha(fecha) {
